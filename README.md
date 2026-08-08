@@ -1,5 +1,6 @@
 # drf-tool-schema
 
+[![Tests](https://github.com/SebassContreras/drf-tool-schema/actions/workflows/test.yml/badge.svg)](https://github.com/SebassContreras/drf-tool-schema/actions/workflows/test.yml)
 [![PyPI version](https://img.shields.io/pypi/v/drf-tool-schema.svg)](https://pypi.org/project/drf-tool-schema/)
 [![Python versions](https://img.shields.io/pypi/pyversions/drf-tool-schema.svg)](https://pypi.org/project/drf-tool-schema/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -189,7 +190,8 @@ their output type isn't introspectable. `PrimaryKeyRelatedField` is not special-
 versions as breaking until 1.0.
 
 Covered by 19 unit tests over the field mapping, required/exclude handling, nested serializers and
-description fallbacks. Released to PyPI from a tagged commit via GitHub Actions using
+description fallbacks, run against Python 3.11 and 3.12 on every push and pull request. Released to PyPI
+from a tagged commit via GitHub Actions using
 [trusted publishing](https://docs.pypi.org/trusted-publishers/) — no API tokens stored in the repo.
 
 ## Using it with Claude Code
